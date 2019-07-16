@@ -1,12 +1,14 @@
-#Programming test
+# Programming test
 
-Create a CRUD app for users using an existing API. To get an idea about what we wish for you to do have a look at [/example-site/example.html](/example-site/example.html). The styling of this page is just an example and you may present the data in what ever way you wish. 
+Create a CRUD app for users using an existing API. 
+To get an idea about what we wish for you to do have a look at [/example-site/example.html](/example-site/example.html). 
+The styling of this page is just an example and you may present the data in what ever way you wish. 
 
 ## Requirements
 
 - Use the existing API found [Here](http://user-service.eu-central-1.elasticbeanstalk.com/swagger-ui.html).
-- Use Axios to talk to API.
-- Use ReactJs for app code. 
+- Use [Axios](https://www.npmjs.com/package/axios) to talk to API.
+- Use [React](https://reactjs.org/) for app code. 
 
 ## The test
 
