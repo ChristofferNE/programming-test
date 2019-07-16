@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <title>Example</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .content {
+            max-width: 800px;
+            margin: 16px auto;
+        }
+
+        .headline {
+            background-color: #eaeaea;
+            padding: 24px 0;
+        }
+
+        .headline h1 {
+            text-align: center;
+        }
+
+        .user-card, #add-user-container {
+            border: 1px solid #eaeaea;
+            padding: 12px;
+            margin: 8px;
+        }
+
+        input {
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="headline">
+        <h1>Our users</h1>
+    </div>
+
+    <div class="content">
+        <div id="add-user-container">
+            <h2>New user</h2>
+            <form action="#">
+                First name: <input type="text" name="firstname">
+                last name: <input type="text" name="lastname"><br>
+                email: <input type="text" name="email">
+                phone: <input type="text" name="phone">
+                active: <input type="checkbox" name=""><br>
+                <input type="submit" value="Add user">
+            </form>
+        </div>
+
+        <div id="all-users-container">
+            <div class="user-card">
+                <h3>Name: Christoffer Olsson</h3>
+                <p>Email: Christoffer.olsson@ne.se</p>
+                <p>Phone: 0708195557</p>
+                <p>Is active</p>
+                <button>Delete</button>
+                <button>Edit</button>
+            </div>
+            <div class="user-card">
+                <h3>Name: Emil Olsson</h3>
+                <p>Email: Emil.olsson@ne.se</p>
+                <p>Phone: 0709080557</p>
+                <p>Is active</p>
+                <button>Delete</button>
+                <button>Edit</button>
+            </div>
+            <div class="user-card">
+                <h3>Name: Hans Runehov</h3>
+                <p>Email: Hans.Runehov@ne.se</p>
+                <p>Phone: 0708192334</p>
+                <p>Not active</p>
+                <button>Delete</button>
+                <button>Edit</button>
+            </div>
+            <div class="user-card">
+                <h3>Name: Anders Olsson</h3>
+                <p>Email: Anders.olsson@ne.se</p>
+                <p>Phone: 0733333333</p>
+                <p>Is active</p>
+                <button>Delete</button>
+                <button>Edit</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
