@@ -1,0 +1,13 @@
+.UserForm {
+    background-color: orange;
+}
+
+.UserForm p {
+    margin: 10px;
+}
+
+.UserForm input, .UserForm button {
+    width: 90%;
+}
+
+
